@@ -1,0 +1,14 @@
+.button {
+  outline: none;
+  background: transparent;
+  border: 2px solid blue;
+  border-radius : 1em;
+
+  &:hover {
+    border : 1.5px solid black;
+    color: white;
+    a{
+      color : #22487b !important;
+    }
+  }
+}

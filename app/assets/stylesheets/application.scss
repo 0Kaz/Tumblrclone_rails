@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+@import "normalize";
+
+html, body {
+  font-family: "Poor Story", sans-serif;
+}
+
+
+#sidebar {
+  width: 200px;
+  position: fixed;
+  left:0;
+  top:0;
+  height:100vh;
+  background : black;
+  color: white;
+  padding: 7em 0 0 0;
+  border-right: 1px solid black;
+
+  ul {
+    list-style:none;
+    text-decoration:none;
+    li {
+      a{
+        color:white;
+      }
+    }
+  }
+
+}
+
+a {
+  text-decoration: none;
+}
+
